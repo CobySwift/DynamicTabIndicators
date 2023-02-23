@@ -11,6 +11,10 @@
 		CB4E0F3D29A7CE8B00E44A67 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB4E0F3C29A7CE8B00E44A67 /* ContentView.swift */; };
 		CB4E0F3F29A7CE8C00E44A67 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB4E0F3E29A7CE8C00E44A67 /* Assets.xcassets */; };
 		CB4E0F4229A7CE8C00E44A67 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB4E0F4129A7CE8C00E44A67 /* Preview Assets.xcassets */; };
+		CB4E0F4C29A7D00A00E44A67 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB4E0F4B29A7D00A00E44A67 /* Home.swift */; };
+		CB4E0F4E29A7D14D00E44A67 /* Tab.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB4E0F4D29A7D14D00E44A67 /* Tab.swift */; };
+		CB4E0F5029A7D67C00E44A67 /* ScrollOffset.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB4E0F4F29A7D67C00E44A67 /* ScrollOffset.swift */; };
+		CB4E0F5229A7DB0300E44A67 /* LineInterpolation.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB4E0F5129A7DB0300E44A67 /* LineInterpolation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +23,10 @@
 		CB4E0F3C29A7CE8B00E44A67 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		CB4E0F3E29A7CE8C00E44A67 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CB4E0F4129A7CE8C00E44A67 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CB4E0F4B29A7D00A00E44A67 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		CB4E0F4D29A7D14D00E44A67 /* Tab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tab.swift; sourceTree = "<group>"; };
+		CB4E0F4F29A7D67C00E44A67 /* ScrollOffset.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollOffset.swift; sourceTree = "<group>"; };
+		CB4E0F5129A7DB0300E44A67 /* LineInterpolation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LineInterpolation.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +59,9 @@
 		CB4E0F3929A7CE8B00E44A67 /* DynamicTabIndicators */ = {
 			isa = PBXGroup;
 			children = (
+				CB4E0F4A29A7CFF300E44A67 /* Helpers */,
+				CB4E0F4929A7CFEF00E44A67 /* Model */,
+				CB4E0F4829A7CF6E00E44A67 /* View */,
 				CB4E0F3A29A7CE8B00E44A67 /* DynamicTabIndicatorsApp.swift */,
 				CB4E0F3C29A7CE8B00E44A67 /* ContentView.swift */,
 				CB4E0F3E29A7CE8C00E44A67 /* Assets.xcassets */,
@@ -65,6 +76,31 @@
 				CB4E0F4129A7CE8C00E44A67 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		CB4E0F4829A7CF6E00E44A67 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CB4E0F4B29A7D00A00E44A67 /* Home.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CB4E0F4929A7CFEF00E44A67 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CB4E0F4D29A7D14D00E44A67 /* Tab.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CB4E0F4A29A7CFF300E44A67 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				CB4E0F4F29A7D67C00E44A67 /* ScrollOffset.swift */,
+				CB4E0F5129A7DB0300E44A67 /* LineInterpolation.swift */,
+			);
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,7 +174,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				CB4E0F3D29A7CE8B00E44A67 /* ContentView.swift in Sources */,
+				CB4E0F4C29A7D00A00E44A67 /* Home.swift in Sources */,
+				CB4E0F5229A7DB0300E44A67 /* LineInterpolation.swift in Sources */,
+				CB4E0F5029A7D67C00E44A67 /* ScrollOffset.swift in Sources */,
 				CB4E0F3B29A7CE8B00E44A67 /* DynamicTabIndicatorsApp.swift in Sources */,
+				CB4E0F4E29A7D14D00E44A67 /* Tab.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
